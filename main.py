@@ -50,9 +50,9 @@ def get_countdown(date):
         'days_until': days,
         'day_unit': 'days' if days > 1 else 'day',
         'hours_until': hours,
-        'hour_unit': 'hour' if hours > 1 else 'hour',
+        'hour_unit': 'hours' if hours > 1 else 'hour',
         'minutes_until': minutes,
-        'minute_unit': 'minute' if minutes > 1 else 'minute'
+        'minute_unit': 'minutes' if minutes > 1 else 'minute'
     }
 
 for event in conf['events'].values():
